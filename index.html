@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Venta de Aretes Artesanales</title>
+    <!-- Enlace al archivo de estilos CSS -->
+    <link rel="stylesheet" href="estilo.css">
+    <!-- Enlace al archivo JavaScript con defer para ejecutarse después de cargar el HTML -->
+    <script defer src="script.js"></script>
+
+    <link rel="icon" href="imagenes/icono.png" type="image/png">
+</head>
+<body>
+    <header>
+        <img src="imagenes/icons8-dailyart-40.png" alt="Logo" class="logo">
+        <h1>Aretes Artesanales Retro</h1>
+        <nav>
+            <!-- Menú de navegación con enlaces internos -->
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#productos">Productos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Sección de bienvenida con un botón para ver los productos -->
+    <section id="inicio" class="hero">
+        <h2>Descubre el estilo único de nuestros aretes artesanales</h2>
+        <p>Diseños exclusivos inspirados en el estilo retro.</p>
+        <a href="#productos" class="btn">Ver productos</a>
+    </section>
+
+    <!-- Sección de productos con una cuadrícula para mostrar los productos -->
+    <section id="productos">
+        <h2>Productos</h2>
+        <div class="product-grid">
+            <!-- Producto 1 con botón de WhatsApp -->
+            <div class="product-card">
+                <img src="https://i.pinimg.com/originals/1f/19/17/1f1917d74e89697a4e97297185d74aa6.jpg" alt="Aretes 1">
+                <h3>Aretes Vintage</h3>
+                <!-- Botón de WhatsApp con atributos personalizados para el producto y la imagen -->
+                <a href="#" class="btn-whatsapp" data-producto="Aretes Vintage" data-imagen="https://i.pinimg.com/originals/1f/19/17/1f1917d74e89697a4e97297185d74aa6.jpg">Comprar por WhatsApp</a>
+            </div>
+            <!-- Producto 2 -->
+            <div class="product-card">
+                <img src="https://i.etsystatic.com/16002008/r/il/c4f5b3/2552332771/il_fullxfull.2552332771_9tvf.jpg" alt="Aretes 2">
+                <h3>Aretes Retro Floral</h3>
+                <a href="#" class="btn-whatsapp" data-producto="Aretes Retro Floral" data-imagen="https://i.etsystatic.com/16002008/r/il/c4f5b3/2552332771/il_fullxfull.2552332771_9tvf.jpg">Comprar por WhatsApp</a>
+            </div>
+            <!-- Producto 3 -->
+            <div class="product-card">
+                <img src="https://crehana-blog.imgix.net/media/filer_public/47/1f/471f6908-23ef-4bb7-9729-e21ba1c216a9/aretes-nylon.jpg?auto=format&q=50" alt="Aretes 3">
+                <h3>Aretes Boho Chic</h3>
+                <a href="#" class="btn-whatsapp" data-producto="Aretes Boho Chic" data-imagen="https://crehana-blog.imgix.net/media/filer_public/47/1f/471f6908-23ef-4bb7-9729-e21ba1c216a9/aretes-nylon.jpg?auto=format&q=50">Comprar por WhatsApp</a>
+            </div>
+        </div>
+    </section>
+
+
+</body>
+</html>
